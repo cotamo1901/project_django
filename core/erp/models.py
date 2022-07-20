@@ -31,7 +31,8 @@ class Employee(models.Model):
 
     def __str__(self):
         return self.names
-#add
+
+    # add
     class Meta:
         verbose_name = 'Empleado'
         verbose_name_plural = 'Empleados'
